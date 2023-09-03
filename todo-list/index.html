@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="todo-container">
+            <h1>todos</h1>
+            <div class="todo-container-text">
+                <div class="container-text"><i class="fa-solid fa-list-check "></i></div>
+                <h2 class="container-text"> Add your first todo</h2>
+                <p class="container-text">What do you want to get done today?</p>
+            </div>
+
+            <div class="lists-section">
+                <div class="todos-section">
+                    <ul class="todos-list">
+                        <h3>TODOS</h3>
+                        <!--
+                        <div class="todos-row">
+                            <button class="checked-btn"></button><li class="checked-li">ddd</li><button class="del-btn">X</button>
+                        </div>
+                        -->
+                    </ul>
+                </div> 
+            
+                <div class="completed-todos-section">  
+                    <ul class="completed-todos-list">
+                        <h3>COMPLETED TODOS</h3>
+                        <!--
+                        <div class="todos-row2">
+                            <button class="checked-btn"></button><li class="checked-li">ddd</li><button class="del-btn">X</button>
+                        </div>
+                        -->
+                    </ul>
+                </div>  
+            </div>
+            
+            <form class="todo-form">
+                <input name="newTodo" class="todo-input" type="text" placeholder="E.g. Build a web app">
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
